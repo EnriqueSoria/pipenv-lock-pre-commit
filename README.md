@@ -12,7 +12,7 @@ pip install pre-commit pipenv
 Add following to your `.pre-commit-config.yaml`:
 
 ```yaml
--   repo: https://github.com/d-ryzhikov/pipenv-lock-pre-commit
+-   repo: https://github.com/EnriqueSoria/pipenv-lock-pre-commit
     rev: 0.1.0
     hooks:
     - id: pipenv-lock
